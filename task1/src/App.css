@@ -100,7 +100,7 @@
   
   .title-price {
     flex-direction: column;
-    margin-left: -12%;
+    margin-left: -13%;
 }
     
   .dropdown-row {
@@ -131,7 +131,7 @@
   letter-spacing: 0em;
   width: 20px;
   height: 12px;
-  margin-top:-5px;
+  margin-top:-7px;
   margin-left: 2px;
   }
   
@@ -235,8 +235,8 @@
     letter-spacing: 0em;
     margin-top: 19px;
     color: #9F9F9F;
-    margin-right: -16%;
-    margin-left: -10px;
+    margin-right: -9%;
+    margin-left: -10%;
     text-decoration: line-through;
   
  }

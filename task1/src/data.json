@@ -1,6 +1,6 @@
  [
     {
-    "id":"1",
+      "id":"1",
       "title": "1 Pair",
       "price": "DKK 195.00",
       "discount": "50% OFF",
@@ -10,17 +10,17 @@
       "color2": ["Red", "Green"]
     },
     {
-        "id":"2",
+      "id":"2",
       "title": "2 Pair",
       "price": "DKK 345.00",
       "discount": "40% OFF",
       "size1": ["S", "M"],
       "size2": ["S", "M", "L"],
       "color1": ["Red"],
-      "color2": ["Red"]
+      "color2": ["Red","Green","Blue"]
     },
     {
-        "id":"3",
+     "id":"3",
       "title": "3 Pair",
       "price": "DKK 528.00",
       "discount": "60% OFF",
