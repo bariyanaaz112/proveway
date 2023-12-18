@@ -4,16 +4,155 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
-
 }
 
-.ship {
+.heading {
+    position: relative;
+    margin: 20px 0;
+    top:20px;
+    color: #007F61;
+    font-size: 18.08px;
+    font-family: Metropolis;
+  }
+  
+  .heading::before,
+  .heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    Width: 93.87px;
+    Height: 0.9px; 
+    background-color: #C8C8C8;
+  }
+  
+  .heading::before {
+    left: 0;
+    transform: translateX(-120%); 
+  }
+  
+  .heading::after {
+    right: 0;
+    transform: translateX(120%);
+  }
+  .collapse-card {
+    border: 1px solid #ddd;
+    Width: 340.73px;
+    Height: 74.11px;
+    align-items: center;
+    border-radius: 3.62px;
+    margin-top: 20px;
+    transition: height 0.3s ease;
+    
+    }
+  
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px; 
+   
+  }
+  
+  .card-content {
+    align-items: center;
+  }
+  
+  .title{
+  font-family:Metropolis;
+  font-weight:400;
+  font-size:14.46px;
+  line-height: 14.46px;
+  }
+  
+  .price{
+  font-family:Metropolis;
+  font-weight:500;
+  font-size:14.46px;
+  line-height: 14.46px;
+  }
+  
+  .discount{
+    font-family:Metropolis;
+    font-weight:500;
+    font-size:14.46px;
+    line-height: 14.46px;
+    margin-right: 30px;
+   }
+  
+  
+  .collapse-card.expanded {
+    height: auto; 
+    background-color: #F4FBF9; 
+    border-color: #4CAF50; 
+  }
+  
+  .collapse-card.expanded .card-content {
+    height: auto; 
+  }
+  
+  .collapse-card:hover {
+    border-color: #4CAF50; 
+    background-color: #F4FBF9; 
+  }
+  
+  .title-price {
+    flex-direction: column;
+    margin-left: -12%;
+}
+    
+  .dropdown-row {
+    margin-bottom: 10px;
+    display: none; 
+  }
+  
+  .collapse-card.expanded .dropdown-row {
+    display: block;
+    
+  }
+  
+  .size-color{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    }
+  
+  .color{
+    margin-left: 5px;
+    }
+
+  .tile{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  width: 20px;
+  height: 12px;
+  margin-top:-5px;
+  margin-left: 2px;
+  }
+  
+  .popular{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #4CAF50;
+  margin-left: -20px;
+  margin-bottom: -10px;
+  }
+  
+ 
+ .ship-total {
     display: flex;
     justify-content: space-between;
 }
 
 .shipping {
-
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
@@ -22,8 +161,36 @@
     text-align: left;
     color: #007F61;
     margin-top: 20px;
-
 }
+
+.dropdown{
+    width: 65.98px;
+    height: 25.31px;
+    top: -105.61px;
+    left: -14.23px;
+    border-radius: 1.81px;
+    border: 0.9px solid #D9D9D9;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 2px;
+    }
+    
+.label{
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -18px;
+    margin-right: 10px;
+    
+    }
 
 .total {
 
@@ -33,14 +200,9 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: right;
-    /* Adjusted to right */
     margin-top: 20px;
-    margin-left: auto;
-    /* Move the span to the right */
     margin-left: 120px;
 }
-
-
 
 .button {
     width: 341px;
@@ -52,13 +214,10 @@
     align-items: center;
     justify-content: center;
     background-color: #007F61;
-   cursor: pointer;
-   
-
-}
+    cursor: pointer;
+   }
 
 .button-text {
-   
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -67,4 +226,20 @@
     text-align: left;
     color: #fff;
 }
+
+.strike-text{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-top: 19px;
+    color: #9F9F9F;
+    margin-right: -16%;
+    margin-left: -10px;
+    text-decoration: line-through;
+  
+ }
+
+
 
