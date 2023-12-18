@@ -1,0 +1,157 @@
+.heading {
+  position: relative;
+  margin: 20px 0;
+  top:20px;
+  color: #007F61;
+  font-size: 18.08px;
+  font-family: Metropolis;
+}
+
+.heading::before,
+.heading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  Width: 93.87px;
+  Height: 0.9px; /* Increased line thickness */
+  background-color: #C8C8C8; /* Line color */
+}
+
+.heading::before {
+  left: 0;
+  transform: translateX(-120%); /* Increased translation */
+}
+
+.heading::after {
+  right: 0;
+  transform: translateX(120%); /* Increased translation */
+}
+.collapsible-card {
+  border: 1px solid #ddd;
+  Width: 340.73px;
+  Height: 74.11px;
+  /* Top: -281.85px; */
+  align-items: center;
+  border-radius: 3.62px;
+  margin-top: 20px;
+  transition: height 0.3s ease;
+  }
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 20px; 
+ 
+}
+
+.card-content {
+  /* margin-top: 20px; */
+  align-items: center;
+}
+
+.title{
+font-family:Metropolis;
+font-weight:400;
+font-size:14.46px;
+line-height: 14.46px;
+}
+
+.price{
+font-family:Metropolis;
+font-weight:500;
+font-size:14.46px;
+line-height: 14.46px;
+}
+
+.discount{
+  font-family:Metropolis;
+  font-weight:500;
+  font-size:14.46px;
+  line-height: 14.46px;
+  margin-right: 30px;
+  /* display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  flex-direction: row; */
+ }
+
+
+.collapsible-card.expanded {
+  height: auto; /* Expand the card to show content */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.collapsible-card.expanded .card-content {
+  height: auto; 
+}
+
+.collapsible-card:hover {
+  border-color: #4CAF50; 
+  background-color: #F4FBF9; 
+}
+
+.row2 {
+  flex-direction: column;
+  margin-left: -30%;
+  /* margin-top: -30px; */
+  /* justify-content: space-between; */
+}
+
+
+.dropdown-row {
+  margin-bottom: 10px;
+  display: none; /* Initially hide the dropdowns */
+}
+
+.collapsible-card.expanded .dropdown-row {
+  display: block; /* Display the dropdowns when the card is expanded */
+}
+
+.second{
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  }
+
+.color{
+  margin-left: 5px;
+   
+
+}
+.tile{
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+width: 20px;
+height: 12px;
+margin-top:-5px;
+margin-left: 2px;
+}
+
+.popular{
+font-family: Inter;
+font-size: 13px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0em;
+color: #4CAF50;
+margin-left: -20px;
+margin-bottom: -10px;
+}
+
+.changedprice{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+}

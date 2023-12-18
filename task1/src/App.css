@@ -1,0 +1,70 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.ship {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007F61;
+    margin-top: 20px;
+
+}
+
+.total {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    /* Adjusted to right */
+    margin-top: 20px;
+    margin-left: auto;
+    /* Move the span to the right */
+    margin-left: 120px;
+}
+
+
+
+.button {
+    width: 341px;
+    height: 48px;
+    margin-top: 20px;
+    left: -41px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007F61;
+   cursor: pointer;
+   
+
+}
+
+.button-text {
+   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
