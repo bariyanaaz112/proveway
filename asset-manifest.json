@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/proveway/static/css/main.01ce13e1.css",
+    "main.css": "/proveway/static/css/main.5220ef7c.css",
     "main.js": "/proveway/static/js/main.6a2f8d24.js",
     "static/js/787.9cf57365.chunk.js": "/proveway/static/js/787.9cf57365.chunk.js",
     "index.html": "/proveway/index.html",
-    "main.01ce13e1.css.map": "/proveway/static/css/main.01ce13e1.css.map",
+    "main.5220ef7c.css.map": "/proveway/static/css/main.5220ef7c.css.map",
     "main.6a2f8d24.js.map": "/proveway/static/js/main.6a2f8d24.js.map",
     "787.9cf57365.chunk.js.map": "/proveway/static/js/787.9cf57365.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ce13e1.css",
+    "static/css/main.5220ef7c.css",
     "static/js/main.6a2f8d24.js"
   ]
 }
